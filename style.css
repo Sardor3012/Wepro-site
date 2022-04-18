@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    gap: 10px;
+
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    padding: 30px 50px;
+    overflow: hidden;
+}
+.person{
+    display: flex;
+    gap: 15px;
+}
+.person img:nth-child(2){
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.links{
+    display: flex;
+    gap: 15px;
+    margin-right: 450px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.screen-one{
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.left-side{
+    color: white;
+}
+.left-side h1{
+    padding: 50px 80px;
+    font-size: 40px;
+}
+.left-side p{
+    padding: 0px 80px;
+}
+.btns{
+    display: flex;
+    gap: 15px;
+    padding: 30px 70px;
+}
+.btn1{
+    width: 214px;
+    height: 44px;
+
+    background: #2B41F0;
+    border-radius: 41px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn2{
+    width: 214px;
+    height: 44px;
+
+    background-color: transparent;
+    border-radius: 41px;
+    border: 2px solid #2B41F0;
+    color: white;
+    cursor: pointer;
+}
+.right-side{
+    overflow: hidden;
+    z-index: 5; 
+}
+.sc2-h1{
+    padding: 30px 80px;
+}
+.courses{
+    display: grid;
+    padding: 30px 80px;
+    grid-template-columns: repeat(3, 435px);
+}
+.course-box{
+    width: 435px;
+    height: 330px;
+    padding: 30px 30px;
+
+    background: #F6F7FB;
+    border-radius: 14px;
+}
+.sc2-btn{
+    width: 152px;
+    height: 44px;
+    color: black;
+
+    border: 2px solid #2B41F0;
+    box-sizing: border-box;
+    border-radius: 61px;
+    cursor: pointer;
+}
+.sc3-h1{
+    padding: 30px 80px;
+}
+.all-courses{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 80px;
+    gap: 50px;
+    max-width: 1920px;
+}
+.all-course-box{
+    width: 317px;
+    height: 301px;
+
+    background: #F6F7FB;
+}
+.course-box-content{
+    padding: 10px 20px;
+    line-height: 25px;
+}
+.screen-four{
+    display: flex;
+}
+.sc4-left{
+    padding: 30px 80px; 
+}
+.screen-five{
+    display: flex;
+    gap: 150px;
+}
+.sc5-left{
+    margin-left: 50px;
+}
+.sc5-right{
+    margin-top: 60px;
+}
+.screen-six{
+    display: flex;
+    gap: 250px;
+    max-width: 1920px;
+}
+.sc6-left{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.sc7-h1{
+    padding: 30px 80px; 
+}
+.sc7-img{
+    margin: 60px 80px;
+}
+.sc7-btn{
+    width: 214px;
+    height: 44px;
+
+    background: #2B41F0;
+    border-radius: 41px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 650px;
+}
+.screen-seven{
+    width: 100%;
+    max-width: 1920px;
+    height: 700px;
+    background: #F6F7FB;
+}
+.screen-eight{
+    max-width: 1920px;
+    width: 100%;
+}
+.sc8-h1{
+    padding: 30px 80px;
+}
+.alex-boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.alex{
+    border-radius: 50%;
+}
+.alex-box{
+    padding: 30px 55px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.screen-nine{
+    width: 100%;
+    height: 460px;
+    max-width: 1920px;
+    
+    background-color: black;
+}
+.screen-nine{
+    display: flex;
+    width: 100%;
+}
+.sc9-img{
+    overflow: hidden;
+}
+.sc9-h1{
+    color: white;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sc9-right{
+    margin-top: 100px;
+}
+.input{
+    width: 300px;
+    height: 44px;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 66px;
+    background-color: transparent;
+}
+.sc9-btn{
+    width: 300px;
+    height: 44px;
+
+    background: #2B41F0;
+    border-radius: 41px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.map{
+    max-width: 1920px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+}
+.foot-p{
+    color: white;
+}
+input{
+    padding-left: 20px;
+}
+.alex-box h3{
+    padding-top: 20px;
+}
+.ticks{
+    display: flex;
+    gap: 50px;
+    padding: 20px 80px;
+}
+.crown{
+    display: flex;
+}
+.crown-img{
+    transform: translate(-80px, -20px);
+}
+.heart{
+    display: flex;
+}
+.heart-img{
+    width: 27px;
+    height: 27px;
+    transform: translate(-70px, 10px);
+}
+.line-box{
+    display: flex;
+    flex-direction: column;
+}
+.line-img{
+    width: 224px;
+    height: 9px;
+}
